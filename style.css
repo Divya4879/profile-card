@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    body{
+      background-color:#15021c;
+    }
+    
+    .profile-card{
+      background-color:rgb(223, 202, 241);
+      width:32%;
+      margin:auto;
+      height:80vh;
+      min-height: 420px;
+      margin-top:5%;
+      margin-bottom:5%;
+      border-radius:25px;
+      border:1px solid rgb(56, 4, 56);
+      box-shadow: 0 4px 8px 0 rgba(237, 142, 241, 0.2), 0 6px 20px 0 rgba(216, 158, 244, 0.121);
+    }
+
+    .profile-card img{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      position:absolute;
+      left:36%;
+      top:20%;
+    }
+    
+    .image {
+            position: relative;
+            background-color: #3bb78f;
+            background-image:linear-gradient(#1d0523,#b12aac,#e33dcd,#4042ba,#060747);
+            height:12rem;
+            border-top-left-radius:25px;
+            border-top-right-radius:25px;
+        }
+ 
+        
+
+    .card-content{
+      text-align:center;
+    }
+    .card-content img{
+      width:22px;
+      height:22px;
+      position:absolute;
+      top:56%;
+      left:41%
+      
+    }
+    .content{
+      position:absolute;
+      top:58%;
+      margin:35px;
+      text-align:center;
+      width:26%
+    }
+
+    button{
+      width:150px;
+      padding:12px 20px 12px 20px;
+      border-radius:25px;
+      border-width:1px;
+      border:1px solid rgb(147, 141, 148);
+      color:gray;
+      position:relative;
+      top:20px;
+      font-weight: 600;
+      font-size: 14px;
+    }  
+    p{
+      color:gray;
+      font-size:14px;
+    }
+    h1{
+      margin-bottom:0;
+      font-family:Roboto
+    }
+    p{
+      margin-top:10px;
+    }
+    
+    button a{
+      color:gray;
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 1180px) {
+      .profile-card{
+        
+        width:36vw;
+       
+      }
+      .content{
+        
+        width:30%
+      }
+      .card-content img{
+        
+        
+        left:39%
+        
+      }
+    }
+
+    @media only screen and (max-width: 1050px) {
+      .profile-card{
+        
+        width:40vw;
+        
+      }
+      .content{
+        
+        width:34%
+      }
+
+      .card-content img{
+        top:54%;
+        
+        left:37%
+        
+      }
+
+      @media only screen and (max-width: 915px) {
+        .profile-card{
+          
+          width:50vw;
+          
+        }
+        .content{
+          margin-left:3%;
+          margin-right:2%;
+          width:40%
+        }
+  
+        .card-content img{
+          
+          
+          left:37%
+          
+        }
+        button{
+          width:120px;
+          padding:12px 20px 12px 20px;
+         
+          top:20px;
+          
+        }  
+      
+    }
+
+    @media only screen and (max-width: 870px) {
+      
+      .content{
+        top:54%;
+        font-size:16px;
+        width:40%;
+        
+      }
+      button{
+        
+        padding:12px 20px 12px 20px;
+        left:5%
+        
+      }
+      .card-content img{
+          
+        top:52%;
+        left:33%
+        
+      }
+
+    }
+
+    @media only screen and (max-width: 680px) {
+      .profile-card{
+          
+        width:60vw;
+        
+      }
+      
+      .content{
+        
+        font-size:14px;
+        width:50vw
+        
+      }
+      button{
+        
+        padding:12px 20px 12px 20px;
+        left:5%
+        
+      }
+      .card-content img{
+          
+          
+        left:33%
+        
+      }
+
+    }
+
+    @media only screen and (max-width: 560px) {
+      .profile-card{
+          
+        width:75vw;
+        
+      }
+      
+      .content{
+        
+        font-size:14px;
+        width:70vw
+        
+      }
+      button{
+        
+        padding:12px 20px 12px 20px;
+        left:0%
+        
+      }
+      .card-content img{
+          
+          
+        left:28%
+        
+      }
+
+    }
+      
+    }

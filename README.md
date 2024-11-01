@@ -1,3 +1,4 @@
 # profile-card
 
-![image](https://github.com/user-attachments/assets/df2acff9-ae4c-43bb-a371-45bdbb1d54d8)
+![image](https://github.com/user-attachments/assets/89ab801f-eedc-4714-9a77-e8e4186227d7)
+

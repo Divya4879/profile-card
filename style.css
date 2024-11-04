@@ -71,7 +71,9 @@ body {
 
 button {
   /* width: 150px; */
+  content: "";
   padding:12px 50px;
+  z-index: 1;
   /* padding: 12px 20px; */
   border-radius: 25px;
   border-width: 1px;
@@ -82,8 +84,8 @@ button {
   font-weight: 600;
   font-size: 14px;
   background-image:linear-gradient(rgb(126, 126, 219),rgb(218, 116, 208), rgb(218, 141, 218));
-  
 }
+
 #butt{
   padding:12px 56px;
 }

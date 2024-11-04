@@ -14,8 +14,8 @@ body {
   margin-bottom: 5%;
   border-radius: 25px;
   border: 1px solid rgb(56, 4, 56);
-  box-shadow: 0 4px 8px 0 rgba(237, 142, 241, 0.2),
-    0 6px 20px 0 rgba(216, 158, 244, 0.121);
+  box-shadow: 0 10px 20px 0 rgba(200, 146, 202, 0.2),
+    0 10px 20px 0 rgba(182, 129, 206, 0.121);
 }
 
 .profile-card img {
@@ -31,7 +31,7 @@ body {
   position: relative;
   background-color: #3bb78f;
   background-image: linear-gradient(
-    #24092b,
+    #380d43,
     #51084f,
     rgb(100, 5, 100),
     rgb(151, 16, 151),
@@ -44,7 +44,7 @@ body {
     rgb(18, 18, 217),
     rgb(10, 10, 173),
     rgb(3, 3, 78),
-    #02033d
+    #090a4c
   );
   height: 12rem;
   border-top-left-radius: 25px;
@@ -70,7 +70,7 @@ body {
 }
 
 button {
-  /* width: 150px; */
+  
   content: "";
   padding:12px 50px;
   z-index: 1;
@@ -84,6 +84,8 @@ button {
   font-weight: 600;
   font-size: 14px;
   background-image:linear-gradient(rgb(126, 126, 219),rgb(218, 116, 208), rgb(218, 141, 218));
+  
+  
 }
 
 #butt{
